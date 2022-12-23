@@ -63,6 +63,9 @@ a{
     align-items: center;
     justify-content: center;  
 }
+.order_button a {
+    color: white;
+}
 .banner{
     width: 100%;
     height: 600px;
@@ -90,6 +93,12 @@ a{
     padding: 0 300px;
 }
 
+
+
+
+
+
+
 .footer{
     width: 100%;
     height: 120px;
@@ -115,8 +124,11 @@ a{
     align-items: center;
     justify-content: center;
 }
-i{
+p{
     margin-left: 20px;
+}
+p{
+    margin-top: 20px;
 }
 .contact{
     font-size: 50px;
