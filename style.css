@@ -32,6 +32,9 @@ body{
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
 }
+/* .active{
+    color: green;
+} */
 ul{
     list-style-type: none;
 }
@@ -164,6 +167,10 @@ i{
     height: 330px;
     /* border: 1px solid white; */
     float: left;
+    transition: transform .3s;
+}
+.food_box:hover{
+    transform: scale(1.1);
 }
 .breakfast_image_1{
     width: 100%;
@@ -631,4 +638,20 @@ p{
 }
 p{
     margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1600px) and (max-width: 2200px){
+    .logo{
+        padding-top: 1%;
+    }
+
+
 }
